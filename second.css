@@ -1,0 +1,33 @@
+body{
+    background: #edeaff;
+}
+.Stopwatch{
+    width: 100%;
+    max-width: 10000px;
+    background-image: linear-gradient(rgba(127 35 35 / 80%),rgba(167 22 22 / 80%)),url(photo/back.avif);
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #ffffff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.Stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.button img:nth-child(2){
+    width: 80px;
+}
